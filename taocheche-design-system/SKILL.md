@@ -15,7 +15,7 @@ This skill provides the creative and technical foundation for transforming funct
 ## 2. Colors: Tonal Architecture
 ### Brand Colors
 - **Brand Blue (Main)**: `#285AF0` (Use for highlights and buttons only).
-- **Blue Tints**: `#547FFF`, `#7B9AFB`, `#A4BFFF`, `#C4D2FF`, `#CEDAFF`, `#D8E1FF`, `#F3F5FF`.
+- **Blue Tints**: `#547FFF`, `#7899FB`, `#A4BFFF`, `#C4D2FF`, `#CEDAFF`, `#DBE6FF`, `#F3F5FF`.
 - **Brand Yellow**: `#FFE900` (Urgent CTAs/Flash sales only), `#FFEF99`, `#FFFBD1`.
 
 ### Grey Colors (Text & Surfaces)
@@ -36,7 +36,8 @@ This skill provides the creative and technical foundation for transforming funct
 
 ## 3. Typography: Editorial Authority
 - **Primary Typeface**: System native (PingFang SC for iOS, Roboto for Android).
-- **Numerical/Price Authority**: **Avenir Black** (Regular and Oblique) for all high-value vehicle prices.
+- **Price Authority (Conditional)**: **Avenir Black** (Regular and Oblique) is reserved **ONLY** for emphasized price information (e.g., vehicle price in detail pages, prominent pricing on cards).
+- **Standard Numerical Data**: All other numbers (dates, mileage, phone numbers, addresses, etc.) must use the **Primary Typeface** to maintain visual consistency.
 
 ### Type Scale
 | Token | Size | Weight | Usage |
@@ -78,6 +79,8 @@ This skill provides the creative and technical foundation for transforming funct
 
 ## 8. Do's and Don'ts
 ### Do:
+- Use **Avenir Black** ONLY for emphasized pricing.
+- Use the **Primary Typeface** (PingFang SC/Roboto) for standard numerical data (dates, specs, etc.).
 - Always pair vehicle prices (**Avenir Black**) with descriptive labels (**PingFang SC**).
 - Use **12px page margins** for mobile layouts.
 - Apply **10px horizontal spacing** between cards.
