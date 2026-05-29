@@ -1,4 +1,4 @@
-# Taocheche Skills
+# Taocheche design-system
 
 This repository contains the official design system skills for Taocheche.
 
