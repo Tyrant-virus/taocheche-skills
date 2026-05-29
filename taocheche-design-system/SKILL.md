@@ -1,94 +1,98 @@
 ---
 name: "taocheche-design-system"
-description: "Editorial Mobility Guidelines for high-end automotive experiences. Invoke when designing UI, styling components, or applying brand identity for Taocheche/automotive projects."
+description: "面向高端汽车体验的编辑化移动端设计指南。用于淘车车及汽车相关项目的 UI 设计、组件样式和品牌识别应用。"
 ---
 
-# Taocheche Design System: Editorial Mobility Guidelines
+# 淘车车设计系统：编辑化移动体验指南
 
-This skill provides the creative and technical foundation for transforming functional marketplaces into high-end editorial experiences.
+这份设计系统为淘车车提供创意与技术基础，用于将功能型交易场景升级为更具高级感、编辑感和品牌辨识度的汽车体验。
 
-## 1. Creative North Star: "The Curated Engine"
-- **Focus**: Precision Typography & Tonal Depth.
-- **Style**: Luxury automotive journal feel, intentional asymmetry, overlapping glass containers.
-- **Visuals**: Reject traditional borders; use background color shifts or tonal transitions.
+## 1. 创意北极星：「精选引擎」
+- **核心关注**：精准排版与有层次的色调深度。
+- **风格方向**：高端汽车移动端界面、克制的不对称布局。
+- **视觉原则**：优先通过背景色阶、色调过渡和层级关系建立模块区分。
 
-## 2. Colors: Tonal Architecture
-### Brand Colors
-- **Brand Blue (Main)**: `#285AF0` (Use for highlights and buttons only).
-- **Blue Tints**: `#547FFF`, `#7899FB`, `#A4BFFF`, `#C4D2FF`, `#CEDAFF`, `#DBE6FF`, `#F3F5FF`.
-- **Brand Yellow**: `#FFE900` (Urgent CTAs/Flash sales only), `#FFEF99`, `#FFFBD1`.
+## 2. 色彩：色调架构
+### 品牌色
+- **品牌蓝（主色）**：`#285AF0`，仅用于重点高亮和按钮。
+- **蓝色色阶**：`#547FFF`, `#7899FB`, `#A4BFFF`, `#C4D2FF`, `#CEDAFF`, `#DBE6FF`, `#F3F5FF`。
+- **品牌黄**：`#FFE900`，仅用于强促销、限时抢购、紧急 CTA 场景；辅助色阶为 `#FFEF99`, `#FFFBD1`。
 
-### Grey Colors (Text & Surfaces)
-- **Grey-1 (Main Text)**: `#1A1F29`
-- **Grey-2**: `#2F363E` | **Grey-3**: `#666A75` | **Grey-4**: `#8C8F99`
-- **Grey-5 (Borders/Secondary)**: `#C4C6CC` | **Grey-6**: `#DADADD` | **Grey-7 (Base Surface)**: `#F3F4F9`
+### 灰色体系（文本与表面）
+- **Grey-1（主文本）**：`#1A1F29`
+- **Grey-2**：`#2F363E` | **Grey-3**：`#666A75` | **Grey-4**：`#8C8F99`
+- **Grey-5（边界/次级信息）**：`#C4C6CC` | **Grey-6**：`#DADADD` | **Grey-7（基础底色）**：`#F3F4F9`
 
-### Auxiliary Colors
-- **Orange**: `#F48C00`, `#FFB53D`, `#FFE0AA`, `#FFF8E8`
-- **Red**: `#E22222`, `#F06565`, `#FFB6B6`, `#FCDADA`, `#FCE9E9`
-- **Green**: `#01A45D`, `#68CFA2`, `#B4EED5`
+### 辅助色
+- **橙色**：`#F48C00`, `#FFB53D`, `#FFE0AA`, `#FFF8E8`
+- **红色**：`#E22222`, `#F06565`, `#FFB6B6`, `#FCDADA`, `#FCE9E9`
+- **绿色**：`#01A45D`, `#68CFA2`, `#B4EED5`
 
-### Surface Hierarchy
-- **Surface (Base)**: `#F3F4F9`.
-- **Surface-Container-Low**: `#F8F9FB`.
-- **Surface-Container-Highest**: `#EDF2FF`.
-- **Glassmorphism**: Backdrop-blur 12px–20px, semi-transparent surfaces.
+### 表面层级
+- **Surface（基础底色）**：`#F3F4F9`。
+- **Surface-Container-Low（低层容器）**：`#F8F9FB`。
+- **Surface-Container-Highest（高层容器）**：`#EDF2FF`。
 
-## 3. Typography: Editorial Authority
-- **Primary Typeface**: System native (PingFang SC for iOS, Roboto for Android).
-- **Price Authority (Conditional)**: **Avenir Black** (Regular and Oblique) is reserved **ONLY** for emphasized price information (e.g., vehicle price in detail pages, prominent pricing on cards).
-- **Standard Numerical Data**: All other numbers (dates, mileage, phone numbers, addresses, etc.) must use the **Primary Typeface** to maintain visual consistency.
+## 3. 字体：编辑化权威感
+- **主字体**：系统原生字体，iOS 使用 PingFang SC，Android 使用 Roboto。
+- **价格专用字体（条件使用）**：**Avenir Black**（Regular 与 Oblique）仅用于需要强调的价格信息，例如详情页车辆价格、卡片中的重点价格。
+- **标准数字信息**：日期、里程、电话号码、地址等其他数字必须使用**主字体**，以保持界面视觉一致性。
 
-### Type Scale
-| Token | Size | Weight | Usage |
-|-------|------|--------|-------|
-| T1 Detail Price | 27px | Avenir Black | Vehicle price in detail pages. |
-| T2 Large Title | 20px | Semibold (600) | Root titles, Entry titles. |
-| T3 Medium Title| 17px | Medium (500) | Tab titles, Module headers. |
-| T4 Small Title | 14px | Regular (400) | List titles, Product titles. |
-| T5 Body | 12px | Regular (400) | Standard UI text. |
-| T6 Small Body | 11px | Regular (400) | Secondary metadata. |
-| T7 Note | 10px | Regular (400) | Footnotes, Micro-copy. |
+### 字号层级
+| Token   | 字号   | 字重             | 使用场景         |
+| ------- | ---- | -------------- | ------------ |
+| T1 详情价格 | 27px | Avenir Black   | 详情页车辆价格。     |
+| T2 大标题  | 20px | Semibold (600) | 一级标题、入口标题。   |
+| T3 中标题  | 17px | Medium (500)   | Tab 标题、模块标题。 |
+| T4 小标题  | 14px | Regular (400)  | 列表标题、商品标题。   |
+| T5 正文   | 12px | Regular (400)  | 标准 UI 文本。    |
+| T6 小正文  | 11px | Regular (400)  | 次级说明、辅助信息。   |
+| T7 注释   | 10px | Regular (400)  | 脚注、微文案。      |
 
-## 4. Corner Radius: Precision Geometry
-- **2PX**: Tags, Smallest buttons.
-- **4PX**: **Standard** (Cards, Buttons, Search bars, Product images).
-- **10PX**: Modals and Popups.
-- **14PX**: Large featured cards in detail pages.
-- **Full (Pill)**: Special action buttons.
+## 4. 圆角：精准几何
+- **2PX**：标签、最小尺寸按钮。
+- **4PX**：**标准圆角**，适用于卡片、按钮、搜索框、商品图片。
+- **10PX**：弹窗、浮层。
+- **14PX**：详情页中的大型重点卡片。
 
-## 5. Grid: Layout Structure
-- **12-Column Layout**.
-- **Gutter (水槽)**: 7px.
-- **Page Margin (页面安全距离)**: 12px.
-- **Card Horizontal Spacing (卡片横向间距)**: 10px.
+## 5. 栅格：布局结构
+- **12 栏布局**。
+- **Gutter（水槽）**：7px。
+- **Page Margin（页面安全距离）**：12px。
+- **Card Horizontal Spacing（卡片横向间距）**：10px。
 
-## 6. Elevation & Depth: Layering
-- **Tonal Layering**: Stack `surface_container_lowest` cards on `surface_container_low` backgrounds.
-- **The Ghost Border**: Use 10% opacity `outline_variant` if definition is needed. Solid 1px borders are forbidden for sectioning.
+## 6. 图片比例：车源图规范
+- **汽车车源图比例**：高:宽 = `1:1.35`，用于车源列表、车源卡片和车辆详情中的主图展示。
 
-## 7. Components
-### Buttons
-| Type | Height | Font Size | Corner Radius |
+## 7. 层级与深度：空间叠层
+- **色调叠层**：在 `surface_container_low` 背景上叠放 `surface_container_lowest` 卡片，形成轻量层级。
+- **幽灵描边**：如需细微边界，可使用 10% 透明度的 `outline_variant`。
+
+## 8. 组件
+### 按钮
+| 类型 | 高度 | 字号 | 圆角 |
 |------|--------|-----------|---------------|
-| Large | 44px | 16px | 4px |
-| Medium | 38px | 15px | 4px |
-| Small | 28px | 12px | 4px |
-| Extra Small| 24px | 12px | 4px |
-- **Sticky Bottom**: 12px safe distance from page bottom.
+| 大按钮 | 44px | 16px | 4px |
+| 中按钮 | 38px | 15px | 4px |
+| 小按钮 | 28px | 12px | 4px |
+| 超小按钮 | 24px | 12px | 4px |
+- **底部吸附按钮**：距离页面底部保持 12px 安全距离。
 
-## 8. Do's and Don'ts
-### Do:
-- Use **Avenir Black** ONLY for emphasized pricing.
-- Use the **Primary Typeface** (PingFang SC/Roboto) for standard numerical data (dates, specs, etc.).
-- Always pair vehicle prices (**Avenir Black**) with descriptive labels (**PingFang SC**).
-- Use **12px page margins** for mobile layouts.
-- Apply **10px horizontal spacing** between cards.
-- Apply **Brand Blue (#285AF0)** to primary call-to-action buttons.
-- Separate car listings using the **4px spacing scale** instead of divider lines.
+## 9. 应做与不应做
+### 应做：
+- **Avenir Black** 只用于需要强调的价格信息。
+- 标准数字信息，例如日期、参数等，应使用**主字体**（PingFang SC/Roboto）。
+- 车辆价格（**Avenir Black**）应始终搭配说明标签（**PingFang SC**）使用。
+- 移动端布局应使用 **12px 页面安全距离**。
+- 卡片之间应使用 **10px 横向间距**。
+- 主要行动按钮应使用**品牌蓝（#285AF0）**。
+- 车辆列表之间优先使用 **4px 间距体系**区分。
+- UI 还原标注中，当调整方向可判断时，应使用直接调整语言，例如：`应加宽`, `应缩小`, `应上移`, `应加深`, `字号应加大`, `间距应缩小`。
+- 可判断大致数值时，应补充近似值，例如：`应加宽约50px`, `应下移约32px`, `间距应缩小约12px`。
+- `应一致` 主要用于文案、图标、状态或完全匹配类问题，例如：`文案应一致`、`图标应一致`。
 
-### Don't:
-- **Never use 1px solid dividers** to separate list items. Use whitespace or tonal shifts.
-- Don't use standard grey shadows; tint shadows with a hint of brand blue.
-- Don't use Brand Blue for large background blocks.
-- Don't mix font weights within a single numerical price.
+### 不应做：
+- 不应使用标准灰色阴影；阴影应带有轻微品牌蓝倾向。
+- 不应将品牌蓝用于大面积背景色块。
+- 不应在同一个价格数字中混用不同字重。
+- 当宽度、高度、间距、字号、圆角或颜色深浅的调整方向可判断时，不应只用 `应一致` 描述问题。
